@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+<meta name="theme-color" content="#1B2A4A">
+<title>English Grammar Master — GHS 124/NB</title>
+<meta name="description" content="Complete English Grammar app: Tenses, Narration, Voice, Phrasal Verbs, Idioms, Pair of Words">
+<link rel="manifest" href="manifest.json">
+<link rel="icon" href="icons/icon-192.png">
+<link rel="apple-touch-icon" href="icons/icon-192.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="brand">
+    <span class="brand-mark">Eng</span>
+    <div class="brand-text">
+      <h1>English Grammar Master</h1>
+      <p>PECTTA · GHS 124/NB</p>
+    </div>
+  </div>
+  <button id="installBtn" class="install-btn hidden">Install App</button>
+</header>
+
+<nav class="tabbar" id="tabbar">
+  <button class="tab active" data-tab="tenses">Tenses</button>
+  <button class="tab" data-tab="narration">Direct→Indirect</button>
+  <button class="tab" data-tab="voice">Active→Passive</button>
+  <button class="tab" data-tab="phrasal">Phrasal Verbs</button>
+  <button class="tab" data-tab="idioms">Idioms</button>
+  <button class="tab" data-tab="pairs">Pair of Words</button>
+</nav>
+
+<main id="content"></main>
+
+<div class="toolbar">
+  <button id="copyBtn" class="tool-btn">📋 Copy</button>
+  <button id="downloadBtn" class="tool-btn">⬇️ Download</button>
+  <button id="shareBtn" class="tool-btn">📤 Share</button>
+  <button id="searchToggle" class="tool-btn">🔎 Search</button>
+</div>
+
+<div id="searchBar" class="search-bar hidden">
+  <input type="text" id="searchInput" placeholder="Search this section...">
+</div>
+
+<footer class="watermark">M Ijaz • GHS 124/NB</footer>
+
+<div id="toast" class="toast"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
